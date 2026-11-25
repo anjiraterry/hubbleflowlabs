@@ -9,9 +9,9 @@ const links = [
 export default function Nav() {
   return (
     <header className="flex h-[72px] items-stretch justify-between border-b border-line">
-      <a href="#" className="flex items-center gap-3 px-6 text-lg font-medium tracking-tight" aria-label="Thorfin Dev home">
+      <a href="#" className="flex items-center gap-3 px-6 text-lg font-medium tracking-tight" aria-label="HubbleFlow Labs home">
    
-        thorfin<span className="text-muted">.dev</span>
+        hubbleflow<span className="text-muted">.labs</span>
       </a>
       <nav className="hidden border-x border-line px-8 md:flex md:items-center md:gap-8" aria-label="Primary">
         {links.map(([l, h]) => (

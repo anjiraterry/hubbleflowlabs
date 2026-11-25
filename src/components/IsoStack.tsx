@@ -4,7 +4,7 @@ const ISO = "matrix(0.866 0.5 -0.866 0.5 0 0)";
 
 export default function IsoStack() {
   return (
-    <svg viewBox="0 0 560 480" className="h-auto w-full" role="img" aria-label="Diagram of a Thorfin service cluster: checkout, payments, ledger, KYC and more, running on isolated pods">
+    <svg viewBox="0 0 560 480" className="h-auto w-full" role="img" aria-label="Diagram of a HubbleFlow Labs service cluster: checkout, payments, ledger, KYC and more, running on isolated pods">
       {/* pod layer */}
       <g transform={`translate(280 330) ${ISO}`}>
         <rect width="250" height="250" x="-125" y="-125" fill="#151515" stroke="#2c2c2c" />

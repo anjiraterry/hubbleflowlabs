@@ -9,8 +9,8 @@ export default function Contact() {
           <h2 className="text-3xl font-medium tracking-tight sm:text-4xl">Tell us what you&apos;re building.</h2>
           <p className="mt-4 max-w-sm text-muted">We reply within one business day with questions or a rough plan.</p>
           <dl className="mt-8 space-y-3 font-mono text-xs text-muted">
-            <div><dt className="inline">email: </dt><dd className="inline text-fg"><a href="mailto:hello@thorfin.space">hello@thorfin.space</a></dd></div>
-            <div><dt className="inline">phone: </dt><dd className="inline text-fg"><a href="tel:+2348166960635">+234 816 696 0635</a></dd></div>
+            <div><dt className="inline">email: </dt><dd className="inline text-fg"><a href="mailto:hello@hubbleflowlabs.com">hello@hubbleflowlabs.com</a></dd></div>
+            <div><dt className="inline">phone: </dt><dd className="inline text-fg"><a href="tel:+2349020722091">+234 902 072 2091</a></dd></div>
             <div><dt className="inline">base: </dt><dd className="inline text-fg">Abuja, Nigeria. Working worldwide.</dd></div>
           </dl>
         </div>

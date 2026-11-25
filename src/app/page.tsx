@@ -15,87 +15,80 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
-    title: "Thorfin Space",
+    title: "Thorfin",
     url: "https://thorfin.space",
     image: "/projects/thorfin_space.png",
-    meta: "Ecommerce & Infrastructure, 2025",
-    description: "High-conversion digital storefront and developer infrastructure showcase with instant checkout and edge caching.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
+    meta: "Finance Automation, 2026",
+    description:
+      "Financial automation platform for deterministic transaction reconciliation, payment proof normalization, exception clustering, and audit-ready evidence reporting.",
+    tags: ["Reconciliation", "Payment Normalization", "Exception Clustering", "Audit Exports"],
   },
   {
-    title: "Ecommerce Hub",
+    title: "Kiyo Stores",
     url: "https://ecommerce-hub-mu.vercel.app/",
     image: "/projects/ecommerce_hub.png",
     meta: "Marketplace & Catalog, 2025",
-    description: "Multi-tenant commerce ecosystem with unified inventory orchestration, cart session clustering, and order management.",
-    tags: ["React 19", "Next.js", "Node.js", "PostgreSQL"],
+    description:
+      "Multi-tenant commerce ecosystem with unified inventory orchestration, cart session clustering, and order management.",
+    tags: ["Multi-Vendor", "Inventory Sync", "Checkout", "Order Management"],
+  },
+    {
+    title: "Boardscape",
+    url: "https://boardscape-chi.vercel.app/",
+    image: "/projects/boardscape.png",
+    meta: "Outdoor Media & AdTech, 2025",
+    description:
+      "Independent advertising company combining creative strategy, media buying, outdoor execution, and the proprietary intelligence platform boardscape Atlas.",
+    tags: ["Creative Strategy", "Media Buying", "Outdoor Execution", "boardscape Atlas"],
   },
   {
-    title: "Rydway Web",
+    title: "Rydway",
     url: "https://rydway-web.rydway-space.workers.dev/",
     image: "/projects/rydway_web.png",
     meta: "Logistics & Mobility, 2024",
-    description: "Distributed dispatch and fleet mobility web platform powered by edge workers, real-time telematics, and automated ledger billing.",
-    tags: ["Cloudflare Workers", "TypeScript", "Next.js", "Mapbox"],
+    description:
+      "Distributed dispatch and fleet mobility web platform powered by edge workers, real-time telematics, and automated ledger billing.",
+    tags: ["Fleet Dispatch", "Live Telematics", "Route Tracking", "Automated Billing"],
   },
-  {
-    title: "One and Only Cleaning Services",
-    url: "https://one-and-only-cleaning-services.vercel.app/",
-    image: "/projects/one_and_only_cleaning.png",
-    meta: "Services & On-Demand Booking, 2025",
-    description: "Modern commercial and residential cleaning booking platform with interactive service tiering, automated scheduling, and client billing.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-  },
+
 ];
 
 const SEED_PROJECTS = [
   {
-    name: "ConvROI",
-    meta: "Conversion & Growth Intelligence, 2024",
-    description: "Enterprise sales pipeline automation and conversion ROI tracking engine featuring multi-channel attribution, automated lead scoring, and CRM synchronization.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Redis"],
+    name: "Kashy",
+    meta: "AI Fintech, 2025",
+    description:
+      "AI-native financial technology platform built for intelligent payment automation, financial workflows, and consumer financial intelligence.",
+    tags: ["AI Fintech", "Payment Automation", "Financial Workflows", "Ledger Intelligence"],
   },
   {
-    name: "Onset",
-    meta: "Camera Rental Marketplace, 2024",
-    description: "Peer-to-peer and studio camera equipment rental marketplace featuring availability calendars, gear inspection logs, security deposit escrow, and instant booking workflows.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+    name: "SocialHouse",
+    meta: "Consumer Technology • Affiliate, 2025",
+    description:
+      "An affiliate of user-focused social media applications designed around authentic human connectivity, intentional interaction, and everyday digital communities.",
+    tags: ["Social Apps", "User-Focused", "Community", "Affiliate"],
   },
   {
     name: "Aparte",
     meta: "Real Estate Discovery, 2023",
-    description: "Property discovery engine and rental management platform with geolocation mapping, verified tenant screening, inspection booking, and digital lease workflows.",
-    tags: ["Next.js", "Node.js", "Mapbox", "PostgreSQL"],
+    description:
+      "Property discovery engine and rental management platform with geolocation mapping, verified tenant screening, inspection booking, and digital lease workflows.",
+    tags: ["Property Discovery", "Tenant Screening", "Geolocation", "Digital Leases"],
   },
 ];
 
 const TEAM = [
-  { initials: "AT", name: "Agbo Terry", role: "Principal & Systems Architect", linkedin: "https://www.linkedin.com/in/anjiraterry/" },
-  { initials: "FI", name: "Folarinimi Isreal", role: "Lead & Fullstack Engineer", linkedin: "https://www.linkedin.com/in/israelfolaranmia1/" },
-  { initials: "AJ", name: "Ayebaemi Jephtah", role: "Program Analyst & Quality Assurance", linkedin: "https://www.linkedin.com/in/ayebaemi-jephthah-302098286/" },
-  { initials: "FM", name: "Fatimah Muhammed", role: "Technical Product Manager & Operations", linkedin: "https://www.linkedin.com/in/fatimah-muhammed-9868071b1" },
-];
-
-const TESTIMONIALS = [
   {
-    quote: "Thorfin Dev operates with rare engineering rigour and clarity. Whether taking over critical distributed components or executing complex deliverables under tight timelines, their team communicates with complete transparency and ships dependable, production-grade code.",
-    name: "Chris C.",
-    role: "Team Lead, SWGlobal",
+    initials: "AT",
+    name: "Agbo Terry",
+    role: "Co-Founder",
+    linkedin: "https://www.linkedin.com/in/anjiraterry/",
   },
   {
-    quote: "Scaling our multi-vendor catalog on Ecommerce Hub was seamless. Thorfin built an inventory orchestration and checkout engine that handled our peak flash sales without a single dropped cart session.",
-    name: "Victoria E.",
-    role: "Co-Founder & COO, Viiv Stores",
-  },
-  {
-    quote: "Thorfin engineered the financial ledger and automated reconciliation workflows for Bedrock Group with exceptional accuracy. Our daily settlement reports and transaction audits now run without a single discrepancy.",
-    name: "Tope A.",
-    role: "Finance Manager, Bedrock Group",
-  },
-  {
-    quote: "Thorfin transformed our operational workflow from manual inquiries into an automated on-demand booking and billing engine. The customer experience is world-class and our scheduling overhead dropped dramatically.",
-    name: "Favour U.",
-    role: "Operations Lead, One and Only Cleaning Services",
+    initials: "FI",
+    name: "Folarinimi Isreal",
+    role: "Co-Founder",
+    linkedin: "https://www.linkedin.com/in/israelfolaranmia1/",
   },
 ];
 
@@ -103,7 +96,7 @@ export default function HomePage() {
   const [formState, setFormState] = useState({
     name: "",
     email: "",
-    projectType: "Ecommerce",
+    projectType: "Venture Partnership",
     message: "",
   });
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -125,56 +118,68 @@ export default function HomePage() {
           {/* Navigation Bar */}
           <nav className="nav-bar">
             <a href="#" className="nav-brand">
-            
               <span>
-                thorfin<span className="nav-brand-muted">.dev</span>
+                hubbleflow<span className="nav-brand-muted">labs</span>
               </span>
             </a>
 
             <ul className="nav-links">
               <li className="nav-link-item">
-                <a href="#about" className="nav-link">{"// about"}</a>
+                <a href="#about" className="nav-link">
+                  {"// about"}
+                </a>
               </li>
               <li className="nav-link-item">
-                <a href="#projects" className="nav-link">{"// projects"}</a>
+                <a href="#projects" className="nav-link">
+                  {"// ventures"}
+                </a>
               </li>
               <li className="nav-link-item">
-                <a href="#team" className="nav-link">{"// team"}</a>
+                <a href="#team" className="nav-link">
+                  {"// team"}
+                </a>
               </li>
               <li className="nav-link-item">
-                <a href="#testimonials" className="nav-link">{"// testimonials"}</a>
-              </li>
-              <li className="nav-link-item">
-                <a href="#contact" className="nav-link">{"// contact"}</a>
+                <a href="#contact" className="nav-link">
+                  {"// contact"}
+                </a>
               </li>
             </ul>
 
             <a href="#contact" className="btn-primary">
-              Start a project
+              Connect
             </a>
           </nav>
 
           {/* Hero Section */}
           <section className="hero-section">
-            {/* Primary Hero Content (Sits directly on the kinetic grid) */}
             <div className="hero-header-block">
-              <div className="hero-badge">
-             
-                <span>{"// COMMERCE & FINTECH INFRASTRUCTURE"}</span>
-              </div>
-              <h1>Reliable software for commerce and finance.</h1>
+              <h1>Envision the future.</h1>
               <p className="hero-subhead">
-                Thorfin Dev designs and builds ecommerce platforms, payment systems and fintech products for teams that can&apos;t afford downtime.
+                HubbleFlow Labs is a multidisciplinary technology company,
+                research laboratory, and venture studio; exploring emerging
+                technologies, engineering intelligent systems, and building
+                independent ventures that address meaningful human challenges.
               </p>
               <div className="hero-actions">
                 <a href="#contact" className="btn-primary">
-                  <span>Start a project</span>
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: "6px" }}>
+                  <span>Connect with us</span>
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    style={{ marginLeft: "6px" }}
+                  >
                     <path d="M5 12h14M12 5l7 7-7 7" />
                   </svg>
                 </a>
                 <a href="#projects" className="btn-outline">
-                  See our work
+                  Explore ventures
                 </a>
               </div>
             </div>
@@ -185,38 +190,47 @@ export default function HomePage() {
             <div className="section-label-col">{"// about"}</div>
             <div className="section-content-col">
               <div className="section-statement">
-                We are an engineering team based across Abuja and Lagos, building and maintaining the critical infrastructure behind online stores, fintech ledgers, and payment platforms.
+                Operating at the intersection of software engineering,
+                artificial intelligence, scientific research, and
+                entrepreneurship : building, incubating, and scaling independent
+                technology ventures.
               </div>
 
               <div className="about-cells-grid">
                 <div className="about-cell">
-                  <div className="about-cell-title">Ecommerce</div>
+                  <div className="about-cell-title">Artificial Intelligence &amp; R&amp;D</div>
                   <p>
-                    High-volume store backends, custom checkout flows, catalog synchronization, and headless storefront integrations.
+                    Intelligent agents, autonomous systems, machine learning,
+                    and applied scientific research into emerging computing
+                    paradigms.
                   </p>
                 </div>
                 <div className="about-cell">
-                  <div className="about-cell-title">Fintech</div>
+                  <div className="about-cell-title">Software &amp; Financial Technology</div>
                   <p>
-                    Double-entry ledger systems, automated multi-currency payouts, real-time fraud scoring, and compliant KYC pipelines.
+                    Enterprise software, distributed systems, payment
+                    intelligence, automation, and consumer financial products.
                   </p>
                 </div>
                 <div className="about-cell">
-                  <div className="about-cell-title">Platforms and APIs</div>
+                  <div className="about-cell-title">Consumer &amp; Venture Studio</div>
                   <p>
-                    Developer portals, webhook infrastructure, idempotent event streams, and mission-critical payment gateways.
+                    Internally developing, incubating, launching, and scaling
+                    independent technology businesses that improve everyday
+                    experiences.
                   </p>
                 </div>
               </div>
             </div>
           </section>
 
-          {/* Section: Projects (Grid with Screenshots of live sites) */}
+          {/* Section: Ventures & Projects */}
           <section id="projects" className="content-section">
-            <div className="section-label-col">{"// projects"}</div>
+            <div className="section-label-col">{"// ventures"}</div>
             <div className="section-content-col">
               <div className="section-statement">
-                Selected systems engineered for scale, zero downtime, and high transaction volume.
+                Independent products, platforms, and affiliates engineered
+                across the HubbleFlow Labs ecosystem.
               </div>
 
               {/* Projects Grid with Live Screenshots */}
@@ -247,7 +261,9 @@ export default function HomePage() {
                       <p className="project-desc">{proj.description}</p>
                       <div className="project-tags">
                         {proj.tags.map((t) => (
-                          <span key={t} className="tag-badge">{t}</span>
+                          <span key={t} className="tag-badge">
+                            {t}
+                          </span>
                         ))}
                       </div>
                     </div>
@@ -260,15 +276,55 @@ export default function HomePage() {
                 {SEED_PROJECTS.map((p) => (
                   <div key={p.name} className="project-row">
                     <div style={{ maxWidth: "480px" }}>
-                      <div style={{ display: "flex", alignItems: "baseline", gap: "10px", marginBottom: "4px" }}>
-                        <span style={{ fontSize: "16px", fontWeight: 500, color: "var(--color-fg)" }}>{p.name}</span>
-                        <span className="mono" style={{ fontSize: "11px", color: "var(--color-muted)" }}>{p.meta}</span>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "baseline",
+                          gap: "10px",
+                          marginBottom: "4px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: "16px",
+                            fontWeight: 500,
+                            color: "var(--color-fg)",
+                          }}
+                        >
+                          {p.name}
+                        </span>
+                        <span
+                          className="mono"
+                          style={{
+                            fontSize: "11px",
+                            color: "var(--color-muted)",
+                          }}
+                        >
+                          {p.meta}
+                        </span>
                       </div>
-                      <p style={{ fontSize: "13.5px", color: "var(--color-muted)", margin: 0 }}>{p.description}</p>
+                      <p
+                        style={{
+                          fontSize: "13.5px",
+                          color: "var(--color-muted)",
+                          margin: 0,
+                        }}
+                      >
+                        {p.description}
+                      </p>
                     </div>
-                    <div style={{ display: "flex", flexWrap: "wrap", gap: "6px", marginTop: "8px" }}>
+                    <div
+                      style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "6px",
+                        marginTop: "8px",
+                      }}
+                    >
                       {p.tags.map((t) => (
-                        <span key={t} className="tag-badge">{t}</span>
+                        <span key={t} className="tag-badge">
+                          {t}
+                        </span>
                       ))}
                     </div>
                   </div>
@@ -282,7 +338,8 @@ export default function HomePage() {
             <div className="section-label-col">{"// team"}</div>
             <div className="section-content-col">
               <div className="section-statement">
-                Engineers with hands on real transaction volume, ledgers, and distributed systems.
+                Founded by builders committed to long-term engineering,
+                research, and venture creation.
               </div>
 
               <div className="team-grid">
@@ -300,36 +357,19 @@ export default function HomePage() {
                         aria-label={`${member.name} on LinkedIn`}
                       >
                         <span>LinkedIn</span>
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <svg
+                          width="12"
+                          height="12"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                        >
                           <path d="M7 17L17 7M17 7H7M17 7V17" />
                         </svg>
                       </a>
                     </div>
                   </div>
-                ))}
-              </div>
-            </div>
-          </section>
-
-          {/* Section: Testimonials */}
-          <section id="testimonials" className="content-section">
-            <div className="section-label-col">{"// testimonials"}</div>
-            <div className="section-content-col">
-              <div className="section-statement">
-                Direct feedback from founders and engineering leaders running our software.
-              </div>
-
-              <div className="testimonials-grid">
-                {TESTIMONIALS.map((t) => (
-                  <figure key={t.name} className="testimonial-block">
-                    <blockquote className="testimonial-quote">
-                      &ldquo;{t.quote}&rdquo;
-                    </blockquote>
-                    <figcaption className="testimonial-author">
-                      <span className="author-name">{t.name}</span>
-                      <span className="author-role">{t.role}</span>
-                    </figcaption>
-                  </figure>
                 ))}
               </div>
             </div>
@@ -341,36 +381,58 @@ export default function HomePage() {
             <div className="section-content-col">
               <div className="contact-layout">
                 <div>
-                  <h2 style={{ fontSize: "28px", fontWeight: 500, color: "var(--color-fg)", marginBottom: "12px" }}>
-                    Tell us what you&apos;re building.
+                  <h2
+                    style={{
+                      fontSize: "28px",
+                      fontWeight: 500,
+                      color: "var(--color-fg)",
+                      marginBottom: "12px",
+                    }}
+                  >
+                    Connect with HubbleFlow Labs.
                   </h2>
                   <p>
-                    We take on a limited number of projects each quarter to ensure senior hands on all critical architecture.
+                    Reach out regarding venture partnerships, research
+                    collaborations, or joining our engineering and product teams.
                   </p>
 
                   <div className="contact-meta-list">
                     <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// base"}</span>
-                      <span className="contact-meta-val">Abuja &amp; Lagos, Nigeria</span>
+                      <span className="contact-meta-val">
+                        Abuja &amp; Lagos, Nigeria
+                      </span>
                     </div>
                     <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// timezone"}</span>
-                      <span className="contact-meta-val">West Africa Time (WAT • UTC+1)</span>
+                      <span className="contact-meta-val">
+                        West Africa Time (WAT • UTC+1)
+                      </span>
                     </div>
                     <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// email"}</span>
-                      <a href="mailto:hello@thorfin.space" className="contact-meta-val" style={{ color: "var(--color-accent)" }}>
-                        hello@thorfin.space
+                      <a
+                        href="mailto:hello@hubbleflowlabs.com"
+                        className="contact-meta-val"
+                        style={{ color: "var(--color-accent)" }}
+                      >
+                        hello@hubbleflowlabs.com
                       </a>
                     </div>
                     <div className="contact-meta-item">
                       <span className="contact-meta-label">{"// phone"}</span>
-                      <a href="tel:+2348166960635" className="contact-meta-val" style={{ color: "var(--color-accent)" }}>
-                        +234 816 696 0635
+                      <a
+                        href="tel:+2349020722091"
+                        className="contact-meta-val"
+                        style={{ color: "var(--color-accent)" }}
+                      >
+                        +234 902 072 2091
                       </a>
                     </div>
                     <div className="contact-meta-item">
-                      <span className="contact-meta-label">{"// reply time"}</span>
+                      <span className="contact-meta-label">
+                        {"// reply time"}
+                      </span>
                       <span className="contact-meta-val">Within 24 hours</span>
                     </div>
                   </div>
@@ -378,19 +440,35 @@ export default function HomePage() {
 
                 <div>
                   {formSubmitted ? (
-                    <div className="contact-form" style={{ textAlign: "center", padding: "40px 24px" }}>
-                      <div style={{ color: "#7b9cf0", fontSize: "20px", fontWeight: 500, marginBottom: "8px" }}>
+                    <div
+                      className="contact-form"
+                      style={{ textAlign: "center", padding: "40px 24px" }}
+                    >
+                      <div
+                        style={{
+                          color: "#7b9cf0",
+                          fontSize: "20px",
+                          fontWeight: 500,
+                          marginBottom: "8px",
+                        }}
+                      >
                         Message received.
                       </div>
                       <p style={{ margin: "0 auto", fontSize: "14px" }}>
-                        Thank you for reaching out. We will review your project requirements and reply within 24 hours.
+                        Thank you for reaching out to HubbleFlow Labs. We will
+                        review your message and reply within 24 hours.
                       </p>
                       <button
                         className="btn-outline"
                         style={{ marginTop: "20px", alignSelf: "center" }}
                         onClick={() => {
                           setFormSubmitted(false);
-                          setFormState({ name: "", email: "", projectType: "Ecommerce", message: "" });
+                          setFormState({
+                            name: "",
+                            email: "",
+                            projectType: "Venture Partnership",
+                            message: "",
+                          });
                         }}
                       >
                         Send another message
@@ -399,20 +477,26 @@ export default function HomePage() {
                   ) : (
                     <form className="contact-form" onSubmit={handleSubmit}>
                       <div className="form-group">
-                        <label className="form-label" htmlFor="name">{"// your name"}</label>
+                        <label className="form-label" htmlFor="name">
+                          {"// your name"}
+                        </label>
                         <input
                           id="name"
                           type="text"
                           required
                           className="form-input"
-                          placeholder="e.g. Babatunde Adeyemi"
+                          placeholder="Your full name"
                           value={formState.name}
-                          onChange={(e) => setFormState({ ...formState, name: e.target.value })}
+                          onChange={(e) =>
+                            setFormState({ ...formState, name: e.target.value })
+                          }
                         />
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="email">{"// work email"}</label>
+                        <label className="form-label" htmlFor="email">
+                          {"// work email"}
+                        </label>
                         <input
                           id="email"
                           type="email"
@@ -420,35 +504,58 @@ export default function HomePage() {
                           className="form-input"
                           placeholder="name@company.com"
                           value={formState.email}
-                          onChange={(e) => setFormState({ ...formState, email: e.target.value })}
+                          onChange={(e) =>
+                            setFormState({
+                              ...formState,
+                              email: e.target.value,
+                            })
+                          }
                         />
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="projectType">{"// project type"}</label>
+                        <label className="form-label" htmlFor="projectType">
+                          {"// inquiry focus"}
+                        </label>
                         <select
                           id="projectType"
                           className="form-select"
                           value={formState.projectType}
-                          onChange={(e) => setFormState({ ...formState, projectType: e.target.value })}
+                          onChange={(e) =>
+                            setFormState({
+                              ...formState,
+                              projectType: e.target.value,
+                            })
+                          }
                         >
-                          <option value="Ecommerce">Ecommerce</option>
-                          <option value="Fintech">Fintech (Ledgers, KYC, Payments)</option>
-                          <option value="Platform or API">Platform or API</option>
+                          <option value="Venture Partnership">
+                            Venture Partnership
+                          </option>
+                          <option value="Research Collaboration">
+                            Research Collaboration
+                          </option>
+                          <option value="Careers">Careers</option>
                           <option value="Something else">Something else</option>
                         </select>
                       </div>
 
                       <div className="form-group">
-                        <label className="form-label" htmlFor="message">{"// project overview & timeline"}</label>
+                        <label className="form-label" htmlFor="message">
+                          {"// message"}
+                        </label>
                         <textarea
                           id="message"
                           required
                           rows={4}
                           className="form-textarea"
-                          placeholder="Tell us about your product, expected scale, integration requirements, and target timeline..."
+                          placeholder="Share context on your inquiry, research interest, or venture..."
                           value={formState.message}
-                          onChange={(e) => setFormState({ ...formState, message: e.target.value })}
+                          onChange={(e) =>
+                            setFormState({
+                              ...formState,
+                              message: e.target.value,
+                            })
+                          }
                         />
                       </div>
 
@@ -470,10 +577,13 @@ export default function HomePage() {
           {/* Footer */}
           <footer className="site-footer">
             <div>
-              <span>© 2026 Thorfin Dev Ltd. Abuja &amp; Lagos, Nigeria. All rights reserved.</span>
+              <span>
+                © 2026 HubbleFlow Labs. Abuja &amp; Lagos, Nigeria. All rights
+                reserved.
+              </span>
             </div>
             <div>
-              <span className="mono">{"// reliable software for commerce and money"}</span>
+              <span className="mono">{"// envision the future"}</span>
             </div>
           </footer>
         </div>

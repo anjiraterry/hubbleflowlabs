@@ -1,15 +1,15 @@
 const cols = [
-  ["Company", [["About", "#about"], ["Projects", "#projects"], ["Team", "#team"]]],
-  ["Connect", [["LinkedIn", "https://www.linkedin.com/company/your-handle"], ["GitHub", "https://github.com/your-handle"], ["Email", "mailto:hello@thorfin.space"]]],
+  ["Company", [["About", "#about"], ["Ventures", "#ventures"], ["Leadership", "#team"]]],
+  ["Connect", [["LinkedIn", "https://www.linkedin.com/company/hubbleflowlabs"], ["GitHub", "https://github.com/hubbleflowlabs"], ["Email", "mailto:hello@hubbleflowlabs.com"]]],
 ] as const;
 
 export default function Footer() {
   return (
     <footer className="grid gap-10 border-t border-line px-6 py-10 sm:grid-cols-[1fr_auto_auto] sm:gap-20 lg:px-12">
       <div>
-        <p className="text-lg font-medium tracking-tight">thorfin<span className="text-muted">.dev</span></p>
-        <p className="mt-2 max-w-xs text-sm text-muted">Software for commerce and finance.</p>
-        <p className="mt-8 font-mono text-xs text-muted">© {new Date().getFullYear()} Thorfin Dev</p>
+        <p className="text-lg font-medium tracking-tight">hubbleflow<span className="text-muted">.labs</span></p>
+        <p className="mt-2 max-w-xs text-sm text-muted">Envision the future.</p>
+        <p className="mt-8 font-mono text-xs text-muted">© {new Date().getFullYear()} HubbleFlow Labs</p>
       </div>
       {cols.map(([title, items]) => (
         <nav key={title} aria-label={title}>

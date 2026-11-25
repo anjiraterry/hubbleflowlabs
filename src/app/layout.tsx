@@ -21,19 +21,22 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Thorfin Dev — Reliable Software for Commerce and Finance",
+  title: "HubbleFlow Labs — Envision the Future",
   description:
-    "Thorfin Dev designs and builds ecommerce platforms, payment systems and fintech products for teams that can't afford downtime.",
+    "HubbleFlow Labs is a multidisciplinary technology company, venture studio, and research laboratory engineering intelligent systems and independent ventures.",
   keywords: [
-    "Thorfin Dev",
-    "ecommerce engineering",
+    "HubbleFlow Labs",
+    "artificial intelligence",
+    "software engineering",
     "fintech systems",
-    "payment infrastructure",
-    "ledgers",
-    "KYC",
-    "software consultancy",
+    "venture studio",
+    "research and development",
+    "Kiyo Stores",
+    "Boardscape",
+    "Kashy",
+    "SocialHouse",
   ],
-  authors: [{ name: "Thorfin Dev" }],
+  authors: [{ name: "HubbleFlow Labs" }],
 };
 
 export default function RootLayout({
