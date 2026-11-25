@@ -546,7 +546,7 @@ button {
   background-color: var(--color-line);
   border: 1px solid var(--color-line);
   margin: 32px auto 0;
-  max-width: 640px;
+  max-width: 720px;
 }
 
 @media (min-width: 640px) {
@@ -566,17 +566,18 @@ button {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
 }
 
 .team-initials-tile {
-  width: 96px;
-  height: 96px;
+  width: 100%;
+  aspect-ratio: 4 / 5;
   background-color: var(--color-panel);
   border: 1px solid var(--color-line);
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   font-family: var(--font-mono);
   font-size: 20px;
   font-weight: 500;

@@ -77,7 +77,7 @@ export const team = [
     linkedin: "https://www.linkedin.com/in/anjiraterry/",
   },
   {
-    name: "Folarinimi Isreal",
+    name: "Folaranmi Israel",
     role: "Co-Founder",
     linkedin: "https://www.linkedin.com/in/israelfolaranmia1/",
   },

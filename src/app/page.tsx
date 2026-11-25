@@ -82,12 +82,22 @@ const TEAM = [
     initials: "AT",
     name: "Agbo Terry",
     role: "Co-Founder",
+    image: "/team/terry.jpg",
+    imagePosition: "center 32%",
+    imageScale: 1.26,
+    imageOrigin: "center 30%",
+    imageFilter: "brightness(1.04)",
     linkedin: "https://www.linkedin.com/in/anjiraterry/",
   },
   {
     initials: "FI",
     name: "Folarinimi Isreal",
     role: "Co-Founder",
+    image: "/team/isreal.jpg",
+    imagePosition: "center 82%",
+    imageScale: 1.08,
+    imageOrigin: "center 85%",
+    imageFilter: "brightness(0.97)",
     linkedin: "https://www.linkedin.com/in/israelfolaranmia1/",
   },
 ];
@@ -345,7 +355,24 @@ export default function HomePage() {
               <div className="team-grid">
                 {TEAM.map((member) => (
                   <div key={member.name} className="team-card">
-                    <div className="team-initials-tile">{member.initials}</div>
+                    <div className="team-initials-tile">
+                      <Image
+                        src={member.image}
+                        alt={member.name}
+                        width={400}
+                        height={500}
+                        style={{
+                          width: "100%",
+                          height: "100%",
+                          objectFit: "cover",
+                          objectPosition: member.imagePosition,
+                          transform: `scale(${member.imageScale})`,
+                          transformOrigin: member.imageOrigin,
+                          filter: member.imageFilter,
+                        }}
+                        unoptimized
+                      />
+                    </div>
                     <div className="team-info">
                       <span className="team-name">{member.name}</span>
                       <span className="team-role">{member.role}</span>
